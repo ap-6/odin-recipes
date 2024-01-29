@@ -1,3 +1,5 @@
+/* Home page */
+
 .title-text {
     text-align: center;
     padding: 20px 0px;
@@ -10,7 +12,8 @@
 }
 
 .list-items {
-    text-align: center;
+    text-align: left;
+    padding-left: 3.5vh;
 }
 
 .title-text,
@@ -27,10 +30,26 @@
 }
 
 .home-body {
-    /* background-color: rgb(255, 226, 231); */
     background-color: rgb(255 187 196);
     padding-top: 4vh;
 }
+
+.home-images {
+    height: 200px;
+    width: auto;
+    margin: auto;
+    display: block;
+    border: 3px solid black;
+    margin-top: 4vh;
+}
+
+.home-card {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+/* Recipe pages */
 
 .recipe-images {
     height: 400px;
@@ -45,17 +64,4 @@
 }
 .oats-background {
     background-color: rgb(241, 223, 190);
-}
-
-.home-images {
-    height: 210px;
-    width: auto;
-    text-align: center;
-
-}
-
-.home-card {
-    width: 200px;
-    text-align: center;
-    margin: auto;
 }
